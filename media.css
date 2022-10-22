@@ -1,0 +1,38 @@
+@media screen and (max-width:1000px){
+    nav b{
+        transform: translateX(-200%);
+    }
+    nav p{
+        width: 45%;
+        font-size: 15px;    
+        transform: translateX(-30%);    
+    }
+    nav button{
+        transform: translateX(-80%);
+    }
+}
+@media screen and (max-width:800px){
+    nav p{
+        display: none;
+    }
+    nav b{
+        margin-left: 30%;
+    }
+    nav button{
+        margin-left: 65%;
+    }
+    .nav_icon i{
+        display: block;
+        font-size: 25px;
+        margin-top: 10px;
+        color: #fff;
+    }
+}
+@media screen and (max-width:512px){
+    nav button{
+        display: none;
+    }
+    .nav_icon i{
+        margin-left: 55%;
+    }
+}

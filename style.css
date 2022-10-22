@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 9vh;
+    background:  rgb(175, 22, 83);
+    display: flex;
+    position:  relative;
+    
+}
+.nav_icon i{
+    display: none;
+}
+nav p{
+    width: 33%;
+    margin-top: 1%;
+    margin-left: 43%;
+    width: 33%;
+    color: #fff;
+}
+nav b{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    color: #fff;
+}
+nav button{
+    width: 120px;
+    height: 35px;
+    margin-top: 1%;
+    background:  rgb(175, 22, 83);
+    border:solid 1px #fff;
+    color: #ffff;
+    border-radius: 5px;
+
+}
+.nav_top{
+    display: flex;
+    margin-left: 17%;
+    margin-top: 1%;
+}
+.nav_top b{
+    font-size: 13px;  
+    margin-left: 2%;  
+}
+.nav_top p{
+    font-size: 15px;
+}
+.nav_top2{
+    width: 100%;
+    height: 10vh;
+    border: solid 1px rgba(128, 128, 128, 0.122);
+    margin-top: 2%;
+    display: flex;
+}
+.nav_top2 img{
+    width: 3%;
+    height: 6vh;
+    margin-top: 1%;
+    margin-left: 13%;
+}
+
+.nav_top2 p{
+    margin-top: 2%;
+    margin-left: 3%;
+    color: rgba(128, 128, 128, 0.827);
+}
+.inp input{
+    width: 110%;
+    font-size: 17px;
+    margin-top: 12%;
+    margin-left: 200%;
+    border: none;
+}
+.inp i{
+    display: flex;
+    margin-left: 298%;
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.827);
+    transform: translateY(-100%);
+
+
+}
