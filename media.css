@@ -36,16 +36,16 @@
         margin-left: 55%;
     }
 }
-@media screen and (max-width:428px){
+@media screen and (max-width:412px){
     nav b{
         font-size: 17px;
     }
     nav button{
         display: block;
-        margin-top: 8px;
+        margin-top: 4%;
     }
     .nav_icon i{
         font-size: 30px;
-        transform: translateX(-250%);
+        transform: translateX(-400%) translateY(20%);
     }
 }
