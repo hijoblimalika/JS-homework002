@@ -36,3 +36,16 @@
         margin-left: 55%;
     }
 }
+@media screen and (max-width:428px){
+    nav b{
+        font-size: 17px;
+    }
+    nav button{
+        display: block;
+        margin-top: 8px;
+    }
+    .nav_icon i{
+        font-size: 30px;
+        transform: translateX(-250%);
+    }
+}
